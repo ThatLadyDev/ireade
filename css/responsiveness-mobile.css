@@ -6,7 +6,7 @@
 @media (min-width: 481px) and (max-width: 767px) {
   
 	/* CSS */
-  	.mobile_nav{
+  	.mobile_nav, .mobile_main{
 		display: block;
 	}
 
@@ -20,7 +20,7 @@
 @media (min-width: 320px) and (max-width: 480px) {
   
 	/* CSS */
-	.mobile_nav{
+	.mobile_nav, .mobile_main{
 		display: block;
 	}
   
