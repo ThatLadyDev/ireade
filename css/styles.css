@@ -1,0 +1,54 @@
+*{
+	margin:0px;
+	padding: 0px;
+}
+
+body{
+	font-family: 'Work Sans', sans-serif;
+}
+
+.bg-black{
+	background: black;
+}
+
+.mobile_nav{
+	display: none;
+}
+
+.mobile_nav > nav{
+	padding: 1rem;
+	display: flex;
+}
+
+#bread_icon{
+	cursor: pointer;
+}
+
+#bread_icon:hover{
+	fill: #ffffffb3;
+}
+
+.w-15{
+	width: 15%;
+}
+
+.text-center{
+	text-align: center;
+}
+
+.w-70{
+	width: 70%;
+}
+
+nav a.Header-link {
+	text-align: center;
+    display: inherit;
+}
+
+body > header > section.mobile_nav > nav > div:nth-child(1){
+	padding-top: 3px;
+}
+
+body > header > section.mobile_nav > nav > div:nth-child(3){
+	padding-top: 4px;
+}
